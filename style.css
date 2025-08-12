@@ -1,4 +1,4 @@
-/* === Base styles === */
+
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@ ul {
   list-style: none;
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -65,7 +65,7 @@ ul {
   color: white;
 }
 
-/* Toggle Button for Navbar */
+
 .menu-toggle {
   display: none;
   cursor: pointer;
@@ -87,7 +87,7 @@ ul {
   transition: all 0.3s ease;
 }
 
-/* Dark mode toggle button */
+
 #theme-toggle {
   background: white;
   border: none;
@@ -104,7 +104,6 @@ ul {
   color: white;
 }
 
-/* Hero Section */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -205,7 +204,6 @@ ul {
   transform: scale(1.05);
 }
 
-/* Sections */
 .section {
   padding: 60px 30px;
   max-width: 1000px;
@@ -245,7 +243,6 @@ ul {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* Contact Form */
 .contact-form {
   max-width: 600px;
   margin: auto;
@@ -270,7 +267,6 @@ ul {
   outline: none;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 25px 20px 40px;
@@ -281,7 +277,7 @@ footer {
   margin-top: 60px;
 }
 
-/* Social Links */
+
 .social-links {
   margin: 20px 0 0;
   display: flex;
@@ -309,7 +305,7 @@ footer {
   fill: currentColor;
 }
 
-/* === Responsive Navbar === */
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: flex;
@@ -366,7 +362,6 @@ footer {
   }
 }
 
-/* === Dark Theme === */
 body.dark {
   background: #121212;
   color: #ddd;
